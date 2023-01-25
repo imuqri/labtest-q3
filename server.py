@@ -20,7 +20,7 @@ def handle_client(client_socket):
 
 def main():
     #declare server ip and port
-    bind_ip = "192.168.56.102"
+    bind_ip = "192.168.56.102" 
     bind_port = 8888
 
     #create and bind socket

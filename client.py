@@ -15,7 +15,7 @@ def main():
     quote = client_socket.recv(1024)
     print("Quotes Of The Day! : \n %s" % quote.decode())
 
-    # Close the socket
+    # Close the socket 
     client_socket.close()
 
 #execute main function
