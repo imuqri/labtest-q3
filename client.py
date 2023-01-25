@@ -13,7 +13,7 @@ def main():
 
     # Request a quote from the server
     quote = client_socket.recv(1024)
-    print("Quotes Of The Day! : %s" % quote.decode())
+    print("Quotes Of The Day! : \n %s" % quote.decode())
 
     # Close the socket
     client_socket.close()
